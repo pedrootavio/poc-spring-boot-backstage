@@ -1,0 +1,12 @@
+apiVersion: v2
+appVersion: "1.0"
+description: A Helm chart for product-backstage-backend App
+name: product-backstage-backend
+home: https://github.com/hmcts/product-backstage-backend
+version: 0.0.14
+maintainers:
+  - name: HMCTS product-backstage team
+dependencies:
+  - name: java
+    version: 5.2.1
+    repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'

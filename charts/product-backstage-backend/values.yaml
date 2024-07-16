@@ -1,0 +1,6 @@
+java:
+  applicationPort: 
+  image: 'hmctspublic.azurecr.io/product-backstage/backend:latest'
+  ingressHost: product-backstage-backend-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal
+  aadIdentityName: product-backstage
+  environment:
